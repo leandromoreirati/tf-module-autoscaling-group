@@ -14,7 +14,7 @@ Esse módulo sera configurado para usar a ***mixed_instancePolicy***, o que nos 
  - AWS Target Group
  - AWS Instance Profile
 
- **Exepmplo de Uso**
+ **Exemplo de Uso**
  ------
 ```
 module "auto_scaling_group" {
