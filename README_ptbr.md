@@ -1,7 +1,7 @@
 
 ![alt text](https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg)
 
-# **tf-module-app_autoscaling_group**
+# **tf-module-autoscaling-group**
 
 Módulo Terraform para criação de App Auto Scaling Group.
 
