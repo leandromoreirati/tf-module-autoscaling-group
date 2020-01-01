@@ -22,7 +22,7 @@ This module will be configured to use ***mixed_instancePolicy***, which allows u
 module "auto_scaling_group" {
   source = "https://github.com/leandromoreirati/tf-module-autoscaling_group.git"
 
-  name       = "<ASG-NAME>"
+  name       = "RESOURCE_NAME"
 
   azs                                      = "${var.azs}"
   private_subnet                           = "${var.private_subnet}"
