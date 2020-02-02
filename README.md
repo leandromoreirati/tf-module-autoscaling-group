@@ -40,27 +40,11 @@ module "auto_scaling_group" {
   target_group_arns                        = "${module.target_group.lb_target_group_arn}"
   load_balancers                           = "${var.load_balancers}"
 
-  tags = [
-    {
-      key                 = "tag01"
-      value               = "value"
-      propagate_at_launch = true
-    },
-    {
-      key                 = "targ02"
-      value               = "value"
-      propagate_at_launch = true
-    },
-    {
-      key                 = "tag03"
-      value               = "value"
-      propagate_at_launch = true
-    },
-    {
-      key                 = "tagN"
-      value               = "value"
-      propagate_at_launch = true
-    },
+  tags = {
+    "tag01"  = "value01"
+    "tag02"  = "value03"
+    "tag03"  = "tag03"
+    "tagN"   = "tagN"
   }
 }
 
